@@ -1,7 +1,37 @@
 body {
-  font-family:arial,sans-serif
+  font-family:arial,sans-serif;
+  background-color: #ffffff;
+  color:#202124;
 }
 
+.container {
+  /* margin: auto; */
+  text-align: center;
+  /* width: 100%; */
+  /* border: 3px solid green; */
+  padding: 16px 24px;
+  /* padding: 12px; */
+}
+
+.google-logo {
+  text-align: center;
+  padding-top:109px
+}
+.google-logo .logo-img {
+
+  /* width: 272px; */
+  /* height: 92px; */
+  width: 17rem;
+  height: 5.75rem;
+}
+
+.search {
+  text-align: center;
+  /* margin: auto; */
+  /* width: 50%; */
+  /* border: 3px solid green; */
+  padding: 10px;
+}
 /* body {
   font-family: 'Raleway', Raleway;
 } */
@@ -10,6 +40,29 @@ body {
   font-family: 'Courier New', Courier, monospace;
 } */
 
+.row.links {
+  padding: 100px;
+}
+
+.link-wrapper {
+  text-align: right;
+  height: 26px;
+ 
+}
+
+.link-wrapper a:nth-child(2) {
+  margin-left: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color:#202124;
+  font-size: 0.8rem;
+  /* color: #1a0dab; */
+}
+a:hover{
+  text-decoration: underline;
+}
 
 
 /* Advanced Search */
