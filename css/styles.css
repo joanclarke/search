@@ -18,6 +18,7 @@ body {
   padding-top:109px;
   margin-bottom: 8px;
 }
+
 .google-logo .logo-img {
 
   /* width: 272px; */
@@ -58,7 +59,7 @@ body {
   /* margin:0 auto;
   width:534px */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -67,14 +68,16 @@ body {
 } */
 
 .search-icon-grey {
-  margin-left: 5px;
+  /* margin-left: -25px; */
   width: 1.25rem;
   background-color: grey;
 }
 
 .input-outer-wrapper input[type="text"] {
+  /* margin-left: -55px; */
   background-color: rgb(0, 255, 149);
-  width: 21.88rem;
+  /* width: 21.88rem; */
+  width: 28rem;
   height: 2.125rem;
   font-size: 1rem;
   border: none;
