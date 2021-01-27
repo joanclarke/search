@@ -4,7 +4,7 @@ body {
   color:#202124;
 }
 
-.container {
+.container.google-search {
   /* margin: auto; */
   text-align: center;
   /* width: 100%; */
@@ -162,6 +162,25 @@ a:hover {
 }
 
 /* Advanced Search */
+
+.container.advance-search {
+  margin: -7px;
+}
+
 .ad-search {
   font-weight: 100;
+}
+
+.logo-link-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  padding: 0.8rem 1rem;
+  background-color: #f1f1f1;
+}
+
+.logo-img-small {
+  width: 5.8rem;
+  /* height: 1.5rem; */
 }
