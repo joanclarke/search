@@ -23,17 +23,23 @@
                     </div>
                 </div>
             </div>
+          <!-- Title  -->
+            <div id="advance-title-holder">
+                <h3>Advanced Search</h3>
+            </div>
+            <hr class="line">
 
-            <h3 class="ad-search">Advanced Search</h3>
             <div class="row search">
                 <!-- <form action="upload.php" method="post" enctype="multipart/form-data"> -->
-                <form action="https://google.com/search" >
-                    <!-- Title  -->
-                    <div>
-                        <label for="text">Find pages with...</label>
+                <form id="adv-search-form" action="https://google.com/search" >
+          
+                    <div class="find" >
+                        <div><label for="text">Find pages with...</label></div>
+                        <div></div>
+                        <div>To do this in the search box.</div>
                     </div>
                     <!-- All these words -->
-                    <div>
+                    <div class="adv-rows">
                         <div>
                             <label for="allwords">all these words:</label>
                         </div>
@@ -45,7 +51,7 @@
                         </div>    
                     </div>
                     <!-- This exact word or phrase -->
-                    <div>
+                    <div class="adv-rows">
                         <div>
                             <label for="exactwords">this exact word or phrase:</label>
                         </div>
@@ -57,7 +63,7 @@
                         </div>    
                     </div>
                     <!-- Any of these words -->
-                    <div>
+                    <div class="adv-rows">
                         <div>
                             <label for="anyword">any of these words:</label>
                         </div>
@@ -69,7 +75,7 @@
                         </div>    
                     </div>
                     <!-- None of these word -->
-                    <div>
+                    <div class="adv-rows">
                         <div>
                             <label for="none">none of these words:</label>
                         </div>
@@ -77,11 +83,20 @@
                             <input type="text" value="" name="as_eq" id="none">
                         </div>
                         <div>
-                            <p>Put a minus sign just before words that you don't want: <span>trodent, -"Jack Russell"</span></p>
+                            <p>Put a minus sign just before words that you don't want: <br> <span>-rodent, -"Jack Russell"</span></p>
                         </div>    
                     </div>
                     <!-- Advanced Search Buttton -->
-                    <input type="submit" name="submit" value="Advanced Search">
+                    <div class="adv-rows">
+                        <div>
+                        </div>
+                        <div id="submit-btn">
+                            <input type="submit" name="submit" value="Advanced Search">
+                        </div>
+                        <div>
+                        </div>    
+                    </div>
+                    <div class="hr-line"><hr class="line"></div>
                 </form>
             </div>      
         </div>
