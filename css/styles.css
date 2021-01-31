@@ -359,6 +359,23 @@ div.hr-line .line {
   }
 }
 
+@media only screen and (max-width: 805px) {
+
+  .footer .inner-footer .footer-links {
+    text-align: center;
+  }
+
+  .footer .inner-footer .footer-links span{
+    /* float: both;  */
+    clear: both;
+    min-width: 100%;
+  }
+
+  .footer .inner-footer .footer-links span:first-child{
+    padding-right: 0px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
   .input-outer-wrapper {
     width: 34rem;
