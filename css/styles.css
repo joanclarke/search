@@ -66,7 +66,7 @@ body {
 
 .input-outer-wrapper input[type="text"] {
   margin-left: -20px;
-  width: 31rem;
+  width: 26rem;
   height: 2.125rem;
   font-size: 1rem;
   border: none;
@@ -76,11 +76,37 @@ input:focus {
   outline: none;
   background-color: transparent;
 }
-
-.mic-icon img {
+/* 
+.camera img {
   margin-left: -27px;
+  width: 1.3rem; 
+  height:1.4rem;
+} */
+
+.camera {
+  margin-left: -27px;
+  width: 1.5rem; 
+  height:1.5rem;
+  /* height: 24px;
+  width: 24px; */
+  /* background-image: url("https://mdn.mozillademos.org/files/16761/star.gif"); */
+  /* background: url("https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png") 0 0 no-repeat; */
+  background-size: 24px;
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png');
+  background-color: #ffffff;
+}
+
+/* https://www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png */
+.mic img {
+  /* margin-left: -27px; */
   width:0.825rem; 
   height:1.18rem;
+}
+
+.mag-glass img {
+  /* margin-left: -27px; */
+  width: 1.1rem; 
+  height: 1.18rem;
 }
 
 .utils {
@@ -385,6 +411,10 @@ div.hr-line .line {
 
 @media only screen and (max-width: 805px) {
 
+  .input-outer-wrapper input[type="text"] {
+    width: 24rem;
+  }
+
   .footer .inner-footer .footer-links {
     text-align: center;
   }
@@ -395,7 +425,7 @@ div.hr-line .line {
     min-width: 100%;
   }
 
-  .footer .inner-footer .footer-links span:first-child{
+  .footer .inner-footer .footer-links span:first-child {
     padding-right: 0px;
     }
 }
@@ -406,7 +436,7 @@ div.hr-line .line {
   } 
   
   .input-outer-wrapper input[type="text"] {
-    width: 28rem;
+    width: 22rem;
   }
 }
 
@@ -416,7 +446,7 @@ div.hr-line .line {
   }
 
   .input-outer-wrapper input[type="text"] {
-    width: 24rem;
+    width: 20rem;
   }
 }
 
@@ -426,7 +456,7 @@ div.hr-line .line {
   }
 
   .input-outer-wrapper input[type="text"] {
-    width: 22rem;
+    width: 16rem;
   }
 }
 
